@@ -54,6 +54,12 @@
         outline: none;
         text-decoration: none;
       }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
       table {
         border-collapse: collapse !important;
       }
@@ -120,23 +126,128 @@
       margin: 0 !important;
       padding: 0 !important;
       mso-line-height-rule: exactly;
+      background-color: #f4f4f4;
+      font-family: sans-serif;
     "
   >
     <center
       role="article"
       aria-roledescription="email"
       lang="en"
-      style="width: 100%; background-color: #222222"
+      style="width: 100%; background-color: #f4f4f4"
     >
-      <!-- Logo -->
-      <!-- Hero -->
-      <!-- Body text with button -->
-      <!-- Purchase Summary -->
-      <!-- Reservation Details -->
-      <!-- Extras -->
-      <!-- Subscribe Button -->
-      <!-- Social Links -->
-      <!-- Footer -->
+      <!-- [if mso | IE ]
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="background-color: #f4f4f4">
+          <tr>
+            <td>
+        <![endif] -->
+      <div style="max-width: 680px; margin: 0 auto">
+        <!-- [if mso]
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="680">
+              <tr>
+                <td>
+            <![endif] -->
+        <table
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          width="100%"
+          style="margin: auto"
+        >
+          <!-- Logo -->
+          <tr>
+            <td
+              valign="top"
+              align="center"
+              bgcolor="white"
+              style="background-color: white; padding-top: 20px"
+            >
+              <table
+                align="center"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                role="presentation"
+                width="100%"
+              >
+                <tr>
+                  <td style="padding: 5px">
+                    <small style="color: #005826; font-size: 13px">
+                      Thank you for your purchase! Your tickets and reservations
+                      are enclosed.
+                    </small>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" align="center">
+                    <img
+                      src="./images/buschgardens-logo.jpg"
+                      alt="busch gardens logo"
+                      width="231"
+                      style="width: 231px; margin-top: 20px"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Hero -->
+          <tr>
+            <td valign="top" align="center">
+              <table
+                align="center"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                role="presentation"
+                width="100%"
+              >
+                <tr>
+                  <td
+                    valign="top"
+                    align="center"
+                    style="height: 6px; background-color: #00a94f"
+                  ></td>
+                </tr>
+                <tr>
+                  <td
+                    valign="top"
+                    align="center"
+                    width="680"
+                    style="width: 100%; max-width: 680px"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/crdcloud/image/upload/v1607662439/buschGardensTransactional/hero-img_raxlzh.jpg"
+                      alt="Thank You"
+                      width="100%"
+                      style="width: 100%"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Body text with button -->
+
+          <!-- Purchase Summary -->
+          <!-- Reservation Details -->
+          <!-- Extras -->
+          <!-- Subscribe Button -->
+          <!-- Social Links -->
+          <!-- Footer -->
+        </table>
+        <!-- [if mso]
+            </tr>
+          </td>
+        </table>
+        <![endif] -->
+      </div>
+      <!-- [if mso]
+            </td>
+          </tr>
+        </table>
+        <![endif] -->
     </center>
   </body>
 </html>
